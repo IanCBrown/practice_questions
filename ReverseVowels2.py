@@ -20,14 +20,6 @@ def reverse_vowels(string):
             left_ptr += 1
     return "".join(string)
 
-def contains_vowel(word):
-    for char in word:
-        if char in vowels:
-            return True
-        else:
-            continue 
-    return False
-
 if __name__=='__main__':
     test_string = input("Input a string: ")
     print(reverse_vowels(test_string))
