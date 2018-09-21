@@ -1,0 +1,32 @@
+import sys
+
+# get input 
+for i in sys.stdin:
+	ab = i.split()
+	a = int(ab[0])
+	b = int(ab[1])
+
+# Reverses strings, arrays, tuples, etc
+a = str(a)[::-1]
+b = str(b)[::-1] 
+
+
+pipe input to file
+$ echo -e "first line\nsecond line" | python python_iterate_stdin.py
+
+function ord() would get the int value of the char. And in case you want to convert back after playing with the number, function chr() does the trick. 
+
+strip newline characters 
+i = i.strip("\n")
+
+# iterate backwards
+range(10, 0, -1)
+
+# append string for output
+return "".join(string)
+
+# list comprehension for converting types
+numbers = [ int(x) for x in numbers ]
+
+
+int i = (int) sizeof(input) / sizeof(input[0]) 
