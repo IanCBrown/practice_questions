@@ -1,6 +1,6 @@
 def two_sum(target, arr):
 
-    for i in range(len(arr) - 1):
+    for i in range(len(arr)):
         _min = 0
         _max = len(arr) - 1
         first_sum = arr[i]
