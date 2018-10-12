@@ -1,3 +1,0 @@
-False Equivalence 
-	create alphabet char array 
-	match character in input word to index in the char array
