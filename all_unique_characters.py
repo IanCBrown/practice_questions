@@ -2,6 +2,7 @@
 # Cracking the Coding Interview Problem 1.1 
 
 def check_unique(string):
+    # use a set to check that the param string only contains unique characters 
     visited = set()
     for char in string:
         visited.add(char)

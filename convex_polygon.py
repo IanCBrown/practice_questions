@@ -26,7 +26,6 @@ def main():
         list_of_polys.append([int(i) for i in input().split()])
     
     points = []
-    
     for poly in list_of_polys:
         Xs = []
         Ys = []
