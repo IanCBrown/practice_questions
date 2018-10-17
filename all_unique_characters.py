@@ -6,7 +6,6 @@ def check_unique(string):
     visited = set()
     for char in string:
         visited.add(char)
-    
     if len(visited) == len(string):
         return True
     else:
@@ -15,7 +14,6 @@ def check_unique(string):
 
 def main(): 
     str_in = input("Input a string to check for all unique characters:\n")
-
     print(check_unique(str_in))
 
 
