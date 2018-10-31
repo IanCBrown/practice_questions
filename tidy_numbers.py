@@ -1,7 +1,6 @@
 
 def highest_tidy_number(n):
     num = int(n)
-    curr_ascending = 0 
     for i in range(num,0, -1):
         a = list(map(int, list(str(i))))
         if is_tidy(a):
