@@ -50,6 +50,18 @@ class LinkedList:
                 return 
             temp = temp.next
 
+    def remove(self, node):
+        """ remove specified element """
+        temp = self.head
+        while temp:
+            if temp == node:
+                temp.next = temp.next.next
+                temp = None
+                return 
+            temp = temp.next
+        
+    
+
 
 
 

@@ -8,10 +8,10 @@ def quick_sort(l, low, high):
         quick_sort(l, q + 1, high)
 
 def partition(l, low, high):
-    x = l[high]
+    x = l[high] 
     i = low - 1 
 
-    # for j = p to r -1
+    # for j = p to r - 1
     for j in range(low, high):
         if l[j] <= x:
             i += 1
