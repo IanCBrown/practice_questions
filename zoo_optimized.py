@@ -22,7 +22,7 @@ def main():
         num -= 1
         if num == 0:
             # end of zoo 
-            print("List: %d" % zoo_count)
+            print("List %d:" % zoo_count)
             for animal, count in sorted(zoo.items()):
                 print(animal + " | " + str(count))
             zoo = {}
