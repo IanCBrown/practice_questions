@@ -1,4 +1,3 @@
-import sys 
 
 def main():
     num_of_contests = int(input()) 
