@@ -7,9 +7,9 @@ public class reachablepaths {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);  
 
-        int Z = in.nextInt(); 
+        int num_cases = in.nextInt(); 
         // each test case 
-        for (int i = 0; i < Z; i++) {
+        for (int i = 0; i < num_cases; i++) {
             int cities = in.nextInt(); 
             int roads = in.nextInt(); 
 
