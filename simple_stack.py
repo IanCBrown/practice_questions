@@ -11,6 +11,12 @@ class Stack:
 
     def is_empty(self):
         return len(self.stack) > 0
+
+    def peek(self):
+        return self.stack[len(self.stack) - 1]
+
+    def size(self):
+        return len(self.stack)
     
     def print(self):
         print(self.stack)
