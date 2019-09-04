@@ -11,22 +11,9 @@ def autori_ascii(string):
                      ret_str = ret_str + word[0] 
        return ret_str
 
-
-def autori(string):
-       ret_arr = []
-       for word in string:
-              ret_arr.append(word[0])
-       return "".join(ret_arr)
-       
-
-
 def main():
-       input = sys.stdin.readline().split("-")
-       print(autori_ascii(input))
-       print(autori(input))
-
+    input = sys.stdin.readline().split("-")
+    print(autori_ascii(input))
 
 if __name__ == "__main__":
-       main()
-
-
+    main()
