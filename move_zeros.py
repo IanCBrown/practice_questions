@@ -13,7 +13,6 @@ def move_zeros(arr):
         count += 1 
     return arr 
 
-
 move_zeros(arr)
 print(arr)
     

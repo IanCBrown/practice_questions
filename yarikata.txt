@@ -1,0 +1,133 @@
+import sys
+
+# get input 
+for i in sys.stdin:
+	ab = i.split()
+	a = int(ab[0])
+	b = int(ab[1])
+
+# Reverses strings, arrays, tuples, etc
+a = str(a)[::-1]
+b = str(b)[::-1] 
+
+
+pipe input to file
+$ echo -e "first line\nsecond line" | python python_iterate_stdin.py
+
+function ord() would get the int value of the char. And in case you want to convert back after playing with the number, function chr() does the trick. 
+
+strip newline characters 
+i = i.strip("\n")
+
+# iterate backwards
+range(10, 0, -1)
+
+# append string for output
+return "".join(string)
+
+# list comprehension for converting types
+numbers = [ int(x) for x in numbers ]
+
+int i = (int) sizeof(input) / sizeof(input[0]) 
+
+
+import random
+for x in range(10):
+  print random.randint(1,101)
+
+
+# reverse 
+>>> a = ["foo", "bar", "baz"]
+>>> for i in reversed(a):
+...     print i
+... 
+baz
+bar
+foo
+
+# nested list comprehensions 
+list_of_pairs = [[int(i) for i in pair] for pair in list_of_pairs]
+
+
+# mean of list 
+sum(l)/len(l) 
+
+
+# decimal places
+print("{0:.2f}".format(a))
+print("%.2f" % a)
+
+# sort descending order 
+price_list.sort(reverse=True)
+
+# split list into evenly sized chunks 
+def chunks(l, n):
+    """Yield successive n-sized chunks from l."""
+    for i in range(0, len(l), n):
+        yield l[i:i + n]
+
+# fast way to print list 
+print(*myList, sep='\n')
+
+# print on same line
+...     print(i, end='')
+
+# CONVEX POLYGONS 
+https://www.geeksforgeeks.org/area-of-a-polygon-with-given-n-ordered-vertices/
+
+Autocomplete in iTerm2 activates by pressing cmd + ;
+
+# grep a file
+grep "string" ~/threads.txt
+
+
+# replace local file with git remote 
+git fetch
+git checkout origin/master <filepath>
+
+
+# populate dictionary 
+d = {key: value for (key, value) in iterable}
+
+ldd = otool -l
+
+# ternary 
+a if condition else b
+
+# given commit hash 
+git show <commit-id>
+
+
+ls -l filename /* Size of the file*/
+ls -l *        /* Size of All the files in the current directory */
+ls -al *       /* Size of All the files including hidden files in the current directory */
+ls -al dir/    /* Size of All the files including hidden files in the 'dir' directory */
+
+
+# mv multiple files
+mv *IDENTIFIER* ~/YourPath/
+mv file1 file2 ... destination
+
+# remove everything within directory 
+rm /path/to/directory/*
+rm -r /path/to/directory/*
+
+# grep directory, -i for case insensative 
+grep -rl "string" /path
+
+# background, foreground
+ctrl + z
+fg 
+
+# print full path 
+greadlink -f file.txt
+
+https://unix.stackexchange.com/questions/7453/how-to-split-the-terminal-into-more-than-one-view
+
+
+:s/foo/bar/g
+Find each occurrence of 'foo' (in the current line only), and replace it with 'bar'.
+:%s/foo/bar/gc
+Change each 'foo' to 'bar', but ask for confirmation first.
+
+https://stackoverflow.com/questions/1676632/whats-a-quick-way-to-comment-uncomment-lines-in-vim

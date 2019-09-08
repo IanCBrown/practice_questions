@@ -1,0 +1,18 @@
+filetype plugin indent on
+syntax on
+ 
+ set background=dark
+ colorscheme hybrid
+ set backspace=indent,eol,start
+
+ set number
+ highlight LineNr ctermfg=grey
+ highlight LineNr term=bold
+ highlight NonText ctermbg=none ctermfg=grey cterm=NONE guibg=#262626 guifg=#262626 gui=NONE
+
+ set showmatch       " When inserting brackets, highlight the matching one
+ set hlsearch        " Highlight search results
+ set incsearch       " Highlight search results as the search is typed
+ set showcmd         " Show command on the bottom
+ set ruler           " Show line and cursor position
+set colorcolumn=80,120  " Highlight the 80th column

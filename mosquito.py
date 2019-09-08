@@ -6,7 +6,6 @@ def main():
     line = sys.stdin.readline() 
     line = line.split()
 
-
     p = l = r = m = 0 
 
     while len(line) > 0:
@@ -31,11 +30,6 @@ def main():
 
         print(new_m)
         line = sys.stdin.readline().split() 
-
-
-
-
-
 
 
 if __name__ == "__main__":

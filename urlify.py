@@ -1,10 +1,10 @@
-
+# Cracking the Coding Interview 
 
 def urlify(string_in):
     l = string_in.split(' ')
 
     for i in range(0, len(l) - 1):
-        l[i] = l[i] + "%20"
+        l[i] += "%20"
     return ''.join(l)
 
 

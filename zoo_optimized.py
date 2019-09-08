@@ -17,7 +17,6 @@ def main():
             zoo[animal] += 1
         else:
             zoo[animal] = 1
-
         
         num -= 1
         if num == 0:

@@ -30,7 +30,8 @@ public class reachablepaths {
             HashSet<Integer> uniqueParents = new HashSet<Integer>();
             for (int l = 0; l < cities; l++) {
                 uniqueParents.add(find(l)); 
-            }
+            } 
+            //System.out.println(uniqueParents.toString()); 
             System.out.println(uniqueParents.size() - 1); 
         }
     }

@@ -1,0 +1,19 @@
+cd - change directory
+ls - list files 
+
+mkdir - make directory
+rmdir remove directory 
+
+cp - copy 
+rm - remove file
+mv - move file 
+
+touch - create file 
+
+run python
+python <filename>
+
+// compile java
+javac <filename>
+// run java
+java <class name> 

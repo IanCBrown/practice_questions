@@ -17,3 +17,5 @@ def pickingNumbers(a):
     for i in range(1, 100):
         num = max(num, freq[i] + freq[i - 1])
     return num 
+
+

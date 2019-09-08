@@ -1,0 +1,45 @@
+import sys
+
+# original problem 
+# https://open.kattis.com/problems/convexpolygonarea
+
+
+num_of_polygons = 0
+
+def cross_product(list_of_points):
+    area = 0
+    
+    return area 
+
+
+def chunks(l, n):
+    """return successive n-sized chunks from l."""
+    ret_list = []
+    for i in range(0, len(l), n):
+        ret_list.append(l[i:i + n])
+    return ret_list
+
+
+def main():
+    num_of_polygons = int(input())
+    list_of_polys = []
+    for i in range(num_of_polygons):
+        list_of_polys.append(input().split())
+
+    points = []
+    for poly in list_of_polys:
+        poly.pop(0)
+        points.append(chunks(poly, 2))
+
+    # for polygon in points:
+    #     cross_product(points)
+
+    print(list_of_polys)
+    print(points)
+
+
+if __name__ == "__main__":
+    main()
+    
+
+# area = cross product * 1/2 

@@ -8,7 +8,6 @@ def main():
     line = [s.lower() for s in line]
     line = [s.strip() for s in line]
 
-
     count = {}
     ret_list = [] 
 

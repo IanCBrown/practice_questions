@@ -11,7 +11,7 @@ def pickingNumbers(a):
         print(temp)
         if abs(max(temp) - min(temp)) <= 1:
             ret.append(temp)
-
+    
     l = 0 
     for arr in ret:
         if l < len(arr):

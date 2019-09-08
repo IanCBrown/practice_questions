@@ -9,7 +9,6 @@ def two_sum(target, arr):
             guess = int((_max + _min) / 2)
             if arr[guess] == new_target:
                 return (arr[guess],first_sum)
-                
             elif arr[guess] < new_target:
                 _min = guess + 1
             else:
