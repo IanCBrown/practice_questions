@@ -83,7 +83,12 @@ def main():
     insert_recursive(root, Node(1))
     insert_recursive(root, Node(4))
     insert_recursive(root, Node(5))
+    
     inorder(root)
+    print()
+    postorder(root)
+    print()
+    preorder(root)
 
 
 if __name__ == "__main__":
