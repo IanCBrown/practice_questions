@@ -13,7 +13,6 @@ def kmax(arr, k):
 
 
 def kmin_no_duplicates(arr, k):
-
     if k < 1:
         return -1 
 
