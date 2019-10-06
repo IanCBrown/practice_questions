@@ -2,27 +2,13 @@ import sys
 
 grid = []
 
-def bfs(grid, n, m):
-    visited = []
-    q = [(0,0)]
-
-    while q:
-        node = q.pop(0)
-        if node[0] == n and node[1] == m:
-            visited.append(node)
-            return visited
-        if node not in visited:
-            visited.append(node)
-            neighbors = get_neighbors(node[0], node[1], grid[node[0]][node[1]], n, m)
-            for neighbor in neighbors:
-                q.append(neighbor) 
-
 
 def solution(grid, n, m):
     visited = []
     q = [[(0,0)]]
 
     while q:
+        print(q)
         path = list(q.pop(0))
         node = path[-1]
         if node not in visited:
