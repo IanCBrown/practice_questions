@@ -131,3 +131,9 @@ Find each occurrence of 'foo' (in the current line only), and replace it with 'b
 Change each 'foo' to 'bar', but ask for confirmation first.
 
 https://stackoverflow.com/questions/1676632/whats-a-quick-way-to-comment-uncomment-lines-in-vim
+
+Creating symlinks: 
+ln -s /path/to/original/ /path/to/link
+
+mv multiple files: 
+mv *IDENTIFIER* ~/YourPath/YourPath

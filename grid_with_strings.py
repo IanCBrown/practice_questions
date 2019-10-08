@@ -6,7 +6,6 @@ grid = []
 def bfs(grid, n, m):
     visited = []
     q = [(0,0)]
-
     while q:
         node = q.pop(0)
         if node[0] == n and node[1] == m:

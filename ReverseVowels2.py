@@ -1,3 +1,4 @@
+
 import sys
 
 vowels = ['a','e','i','o','u']

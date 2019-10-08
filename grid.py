@@ -2,13 +2,11 @@ import sys
 
 grid = []
 
-
-def solution(grid, n, m):
+def bfs(grid, n, m):
     visited = []
     q = [[(0,0)]]
 
     while q:
-        print(q)
         path = list(q.pop(0))
         node = path[-1]
         if node not in visited:
@@ -37,13 +35,13 @@ def get_neighbors(row, col, value, n, m):
 
 
 def main():
-    dim = [int(x) for x in input().split()]
+    dim = [int(x) for x in sys.stdin.readline().split()]
     n = dim[0]
     m = dim[1]
 
     grid = [[int(x) for x in list(line.strip())] for line in sys.stdin.readlines()]
 
-    path = solution(grid, n - 1, m - 1)
+    path = bfs(grid, n - 1, m - 1)
 
     if path == -1:
         print(-1)
