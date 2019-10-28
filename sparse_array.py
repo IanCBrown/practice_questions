@@ -15,5 +15,5 @@ def matchingStrings(strings, queries):
         if queries[i] in counts:
             ret[i] = counts[queries[i]]
         else:
-            ret[i] = 0 git 
+            ret[i] = 0
     return ret
